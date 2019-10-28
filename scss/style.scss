@@ -16,7 +16,6 @@ body {
   line-height: 1;
   color: white;
   border-top: 5px solid #76c38f;
-}
 
 .container {
   width: 100%;
@@ -24,9 +23,9 @@ body {
 
   .head {
     width: 80%;
+    min-height: 600px;
     margin-left: auto;
     margin-right: auto;
-    min-height: 600px;
 
     .head_inner {
     justify-content: space-between;
@@ -79,8 +78,8 @@ body {
               margin: 13px 20px;
             }
           }
+      }
     }
-  }
   .slickslider {
 
     .first_slide {
@@ -404,6 +403,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+}
 }
 
 @media(max-width: 1200px) {
